@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class WhileLoop : MonoBehaviour
 {
     int cupsInTheSink = 4;
 
@@ -12,6 +12,7 @@ public class NewBehaviourScript : MonoBehaviour
         while(cupsInTheSink > 0)
         {
             Debug.Log("I've washed a cup!");
+            cupsInTheSink--;
         }
     }
 
